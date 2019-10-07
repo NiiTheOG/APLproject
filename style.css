@@ -1,0 +1,94 @@
+#logo{width: 80px;}
+
+.navbar{background-color: transparent !important;}
+
+.bg-light{
+    transition: 500ms ease;
+    background: transparent !important;
+}
+
+.navbar .nav-item a{color: #ffffff !important;}
+
+.navbar .nav-item a:hover{color: gainsboro !important;}
+
+.bg-light.scrolled{ background: maroon !important;}
+
+.title{
+    font-family: 'Muli', sans-serif;
+    color: #C62128;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.paragraphs{
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+#abt{
+    padding-top: 150px;
+}
+
+.center-block{
+     margin-left:auto;
+     margin-right:auto;
+     display:block;
+     width: 100%;
+     
+}
+
+#signin{
+    margin-top: 200px;
+}
+
+#formsection{
+    background-image: url(Images/Mask%20Group%201.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#fixtures{
+    width: 100%; 
+    height: 550px; 
+    background-color: #A00000;
+    margin-top: 150px;
+}
+
+#contactus{
+    width: 100%; 
+    height: 400px; 
+    background-color: #A00000;
+    margin-top: 150px;
+    padding-top: 150px;
+}
+
+.footerinfo{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+.matches{
+    background-color: white;
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+@media (max-width: 700px) { 
+    .texts{
+        
+        font-size: 15px;
+    }
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #A00000 !important;
+}
