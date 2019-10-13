@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+    
+    <link rel="stylesheet" href="style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans&display=swap" rel="stylesheet">
+      
+    <style rel="stylesheet">
+        #logo{width: 80px;}
+
+        .navbar{background-color: transparent !important;}
+
+        .bg-light{
+            transition: 500ms ease;
+            background: transparent !important;
+        }
+
+        .navbar .nav-item a{color: #000000 !important;}
+
+        .navbar .nav-item a:hover{color: gainsboro !important;}
+        .teams{
+    height: 1000px; 
+    
+}
+
+
+    </style>
+    
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+      
+      <!-- Navigation Bar -->
+      <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="Images/AFA.png" id="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signin.html">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#"><button type="submit" class="btn btn-primary" style="text-align: center">Log out</button></a>
+              </li>
+
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      
+      <!-- welcome message -->
+      <div>
+          
+          <h1 class="title" style="text-align: center; color: white; margin-top: 0 !important;" id="contactus">FANTASY LEAGUE</h1>
+          
+          <h1 class="title" style="text-align: center">[User's] team</h1>
+      
+    </div>
+      
+      <div class="container" style="padding-top: 150px; width: 500px">
+                    <div class="row">
+                        <div class="col teams">
+                            
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                            </div>
+                            <div class="players">
+                                <p>Game Week Points:<br> Season Points: </p>
+                            </div>
+                            
+                            
+                            
+                        
+                        </div>
+                        
+                        
+                        
+                    
+                    </div>
+                
+                </div>
+      
+      <div class="container" style="margin-top: 150px">
+               <img src="Images/AFA.png"  style="float: left; margin-right: 50px;" id="logo">
+               <h1 class="title"> Fantasy League Table</h1>
+               
+               <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Position</th>
+                      <th scope="col">Club</th>
+                      <th scope="col">Manager</th>
+                      <th scope="col">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    
+                  </tbody>
+              </table>
+               
+        
+           </div>
+      <!-- Matchday fixtures --> 
+          
+          <div id="fixtures">
+              
+              <h1 class="title" style="text-align: center; color: white; padding-top: 50px;"> Matchday 3 Fixtures</h1>
+              <div class="container matches">
+                  
+                  <p class="paragraphs texts" style="text-align: center; padding-top: 10px">Northside Fc vs Highlanders</p>
+              
+              </div>
+              <div class="container matches"><p class="paragraphs texts" style="text-align: center; padding-top: 10px"> LOL vs Red Army FC</p></div>
+              <div class="container matches"><p class="paragraphs texts" style="text-align: center; padding-top: 10px">Kasanoma vs Elites FC</p></div>
+      
+          </div>
+      
+      <h1 class="title" style="text-align: center; padding-top: 100px">Make Your Predictions</h1>
+      
+      <div class="container" style="padding-top: 50px; width: 500px; ">
+                    <div class="row">
+                        <div class="col">
+                            
+                            <form>
+                                <div class="form-group players" style="height: 150px">
+                                    
+                                    <label class="form-check-label" for="exampleCheck1">
+                                        
+                                        <img src="Images/elite.jpg" class="team-icon"> Elite vs Kasanoma Fc <img src="Images/kasanoma.png" class="team-icon">
+                                    
+                                    </label>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="elitewin" value="elitewin">
+                                      <label class="form-check-label" for="exampleRadios2">
+                                        Elite win
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                      <label class="form-check-label" for="exampleRadios2">
+                                        draw
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="kasanomawin" value="kasanomawin">
+                                      <label class="form-check-label" for="exampleRadios2">
+                                        Kasanoma win
+                                      </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary" style="text-align: center">Submit</button>
+                            </form>
+                            <form>
+                                
+                                <div class="form-group players" style="height: 150px">
+                                    
+                                    <label class="form-check-label" for="exampleCheck1">
+                                        
+                                        <img src="Images/lol.png" class="team-icon"> LOL vs Red Army<img src="Images/red.png" class="team-icon">
+                                    
+                                    </label>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="lolwin" value="lolwin">
+                                      <label class="form-check-label" for="exampleRadios2">
+                                        LOL win
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="loldraw" value="loldraw">
+                                      <label class="form-check-label" for="exampleRadios2">
+                                        draw
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="redarmywin" value="redarmywin">
+                                      <label class="form-check-label" for="exampleRadios2">
+                                        Red Army win
+                                      </label>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                                <button type="submit" class="btn btn-primary" style="text-align: center">Submit</button>
+                                
+                            </form>
+                            
+                            <form>
+                                
+                                <div class="form-group players" style="height: 150px">
+                                    
+                                    <label class="form-check-label" for="exampleCheck1">
+                                        
+                                        <img src="Images/nfc.png" class="team-icon"> Northside FC vs Highlanders<img src="Images/high.png" class="team-icon">
+                                    
+                                    </label>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="lolwin" value="lolwin">
+                                      <label class="form-check-label" for="exampleRadios2">
+                                        NFC win
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="loldraw" value="loldraw">
+                                      <label class="form-check-label" for="exampleRadios2">
+                                        draw
+                                      </label>
+                                    </div>
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="exampleRadios" id="redarmywin" value="redarmywin">
+                                      <label class="form-check-label" for="exampleRadios2">
+                                        Highlanders win
+                                      </label>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                                <button type="submit" class="btn btn-primary" style="text-align: center">Submit</button>
+                                
+                            </form>
+                        
+                        </div>                    
+                    </div>
+                
+                </div>      
+      
+      <!--footer/contact -->
+      
+          <div id="contactus">
+              <div class="container">
+              <p class="footerinfo">Contact Us</p>
+              <p class="footerinfo">1 University Avenue, Berekuso</p>
+              <p class="footerinfo">laselitas.wordpress.com</p>
+                </div>
+          </div>
+      
+      
+      
+      
+      
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+      
+      
+  </body>
+</html>
