@@ -11,6 +11,23 @@
     
     <link rel="stylesheet" href="style.css">  
     <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans&display=swap" rel="stylesheet">
+      
+    <style rel="stylesheet">
+        #logo{width: 80px;}
+
+        .navbar{background-color: transparent !important;}
+
+        .bg-light{
+            transition: 500ms ease;
+            background: transparent !important;
+        }
+
+        .navbar .nav-item a{color: #000000 !important;}
+
+        .navbar .nav-item a:hover{color: gainsboro !important;}
+
+
+    </style>
     
 
     <title>Dashboard</title>
@@ -18,7 +35,7 @@
   <body>
       
       <!-- Navigation Bar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar  navbar-expand-lg navbar-light bg-light">
           <div class="container">
           <a class="navbar-brand" href="#"><img src="Images/AFA.png" id="logo"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,19 +44,16 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#abt">About</a>
+                <a class="nav-link" href="index.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="signin.html">Sign In</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contacus">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fantasy League</a>
+                <a class="nav-link" href="index.html">Contact Us</a>
               </li>
 
             </ul>
@@ -68,51 +82,51 @@
                 
                 </div>
           
-                <div class="container" style="padding-top: 150px">
+                <div class="container" style="padding-top: 150px; width: 500px">
                     <div class="row">
-                        <div class="col-lg-5 teams">
+                        <div class="col teams">
                             <p style="text-align: center; padding-top: 50px;">Pick your team</p>
                             
-                            <form>
+                            <form name="playerForm" action="league.html">
                                 <div class="form-group form-check players">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
                                 </div>
                                 <div class="form-group form-check players">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck2">
                                     <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
                                 </div>
                                 <div class="form-group form-check players">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (DEF) John Doe</label>
                                 </div>
                                 <div class="form-group form-check players">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (DEF) John Doe</label>
                                 </div>
                                 <div class="form-group form-check players">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (DEF) John Doe</label>
                                 </div>
                                 <div class="form-group form-check players">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck6">
+                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (MID) John Doe</label>
                                 </div>
                                 <div class="form-group form-check players">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck7">
+                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (MID) John Doe</label>
                                 </div>
                                 <div class="form-group form-check players">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck8">
+                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (MID) John Doe</label>
                                 </div>
                                 <div class="form-group form-check players">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck9">
+                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (ST) John Doe</label>
                                 </div>
                                 <div class="form-group form-check players">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (GK) John Doe</label>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck10">
+                                    <label class="form-check-label" for="exampleCheck1"> <img src="Images/elite.jpg" class="team-icon"> (ST) John Doe</label>
                                 </div>
                                 
                                 <button type="submit" class="btn btn-primary" style="text-align: center">Submit</button>
@@ -121,12 +135,7 @@
                         
                         </div>
                         
-                        <div class="col-lg-2"></div>
                         
-                        <div class="col-lg-5 teams">
-                            <p style="text-align: center; padding-top: 50px;">Your team</p>
-                        
-                        </div>
                         
                     
                     </div>
@@ -154,13 +163,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
       
-      <script>
       
-        $(window).scroll(function(){
-            $('nav').toggleClass('scrolled', $(this).scrollTop() > 10);
-        });
-        
-        
-    </script>
   </body>
 </html>
