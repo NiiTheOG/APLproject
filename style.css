@@ -7,7 +7,7 @@
     background: transparent !important;
 }
 
-.navbar .nav-item a{color: gray!important;}
+.navbar .nav-item a{color: #ffffff !important;}
 
 .navbar .nav-item a:hover{color: gainsboro !important;}
 
@@ -87,7 +87,17 @@
         
         font-size: 15px;
     }
+    
+    .team-logo{
+        width: 20px;
+    }
 }
+
+@media (min-width: 1200px) { 
+    .team-logo{width: 100px;}
+
+}
+
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #A00000 !important;
@@ -107,9 +117,10 @@
     width: auto; 
     text-align: center; 
     border-radius: 10px; 
-    -webkit-box-shadow: 7px 10px 29px -12px rgba(0,0,0,0.75);
-    -moz-box-shadow: 7px 10px 29px -12px rgba(0,0,0,0.75);
-    box-shadow: 7px 10px 29px -12px rgba(0,0,0,0.75); padding-top: 25px
+    -webkit-box-shadow: 10px 10px 5px -9px rgba(186,186,186,1);
+-moz-box-shadow: 10px 10px 5px -9px rgba(186,186,186,1);
+box-shadow: 10px 10px 5px -9px rgba(186,186,186,1);
+    padding-top: 25px
 }
 
 .team-icon{
