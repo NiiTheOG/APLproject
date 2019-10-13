@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="style.css">
       
     <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans&display=swap" rel="stylesheet">
+      
+    <link href="http://www.jqueryscipt.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+      
 
     <title>APL Fantasy League</title>
       
@@ -26,7 +29,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home</a>
               </li>
@@ -37,17 +40,15 @@
                 <a class="nav-link" href="signin.html">Sign In</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contacus">Contact Us</a>
+                <a class="nav-link" href="#contactus">Contact Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fantasy League</a>
-              </li>
+              
 
             </ul>
             
           </div>
         </div>
-</nav>
+      </nav>
       
       
 <!-- Slider -->    
@@ -147,7 +148,7 @@
                             Join in on the fun, and who knows, you might be our best manager yet
                         </p>
                         
-                        <form>
+                        <form action="signin.html">
                               <!-- Write a regex so only ashesi students can apply -->
                               <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
@@ -165,9 +166,10 @@
                               
                             <!-- Write a regex for strong passwords -->
                               <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                              </div>
+                                      <label for="exampleInputPassword1">Password
+                                      </label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
                               <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                         
@@ -251,7 +253,7 @@
            </div>
       
             
-<!--footer/conctact -->
+<!--footer/contact -->
       
           <div id="contactus">
               
@@ -266,8 +268,20 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="http://code.jquery.com/jquery-1.12.4.min.js">
+    </script>
+    <script src="script.js">
+    </script>
+    <script>
+      $('#exampleInputPassword1').passwordStrength();
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+    
+    <script>
+      $('#exampleInputPassword1').passwordStrength();
+    </script>
     
     <!--Change nav color on scroll -->  
      
@@ -276,9 +290,15 @@
         $(window).scroll(function(){
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 10);
         });
+          
+        
+        
         
         
     </script>
+      
+    
+   
 
   </body>
 </html>
