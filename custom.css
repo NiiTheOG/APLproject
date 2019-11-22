@@ -1,0 +1,120 @@
+.bg-light{
+    transition: 250ms ease;
+    background: transparent !important;
+}
+
+.bg-light.scrolled{
+    background: #fafafa !important;
+  
+}
+
+.def-spacing{
+    margin-top: 100px;
+}
+
+.heading{
+    color: #A00000;
+    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+    margin: 70px 0px 50px 0px;
+}
+
+.texts{
+    color: #707070;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.images{
+    width: 95%;
+}
+
+.btn {
+  background-color: #A00000;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(160,0,0,0.43), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.team-logos{
+    width: 90px;
+}
+.player-logos{
+    width: 60px;
+    margin-right: 5px;
+}
+
+.logos{
+    width: 50px
+}
+
+.fixtures{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(235,235,235), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 30px 30px 30px 30px;
+    width: 300px;
+    margin: 0 auto 20px auto;
+    height: 150px;
+    color: #A00000;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+}
+
+.players{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(235,235,235), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 30px 30px 30px 30px;
+    width: 250px;
+    margin: 0 auto 20px auto;
+    height: 120px;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    
+}
+
+.contactus{
+    width: 100%; 
+    height: 400px; 
+    background-color: #A00000;
+    margin-top: 150px;
+    padding-top: 150px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+}
+
+.head-div{
+    width: 90%;
+    height: 500px;
+    background-image: linear-gradient(to right, #A00000 , #C62128);
+    margin-left: auto;
+    
+    border-bottom-left-radius: 100px
+    
+}
+
+.about-head{
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 50px;
+    color: #ffffff;   
+}
+
+.predictions{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    margin:30px;
+    justify-content: center;
+    align-items: center;
+}
+
